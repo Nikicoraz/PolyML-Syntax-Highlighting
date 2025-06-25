@@ -1,0 +1,25 @@
+{
+  "name": "polyml-syntax-highlighting",
+  "displayName": "PolyML Syntax Highlighting",
+  "description": "A simple PolyML specific syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "poly",
+      "aliases": ["PolyML", "poly"],
+      "extensions": [".sml",".poly"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "poly",
+      "scopeName": "source.poly",
+      "path": "./syntaxes/poly.tmLanguage.json"
+    }]
+  }
+}
