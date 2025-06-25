@@ -1,5 +1,5 @@
 # PolyML Syntax Highlighting
-A language extension to add syntax highlighting support for PolyML using VSCode's TextMate, it highlights mostly what I've used while writing stuff, so some things may be missing.  
+A language extension to add syntax highlighting support for PolyML using VSCode's TextMate. It highlights mostly what I've used while writing stuff, so some things may be missing.  
 
 ## Known Issues
 - Doesn't recognize when curried functions are used
